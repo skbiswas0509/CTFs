@@ -1,0 +1,74 @@
+# --- OS generated files ---
+.DS_Store
+Thumbs.db
+
+# --- Editor/IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Compiled/Binary Files ---
+*.exe
+*.dll
+*.so
+*.out
+*.obj
+*.bin
+*.o
+*.pyc
+*.class
+
+# --- Tools and Payloads ---
+winPEAS*
+LinPEAS*
+PS*.ps1
+Sharp*.exe
+bloodhound/
+*.zip
+*.7z
+*.rar
+*.tar.gz
+*.tgz
+
+# --- Logs and Dumps ---
+*.log
+*.pcap
+*.pcapng
+*.dump
+*.core
+
+# --- Credentials or Keys ---
+*.env
+*.pem
+*.crt
+*.key
+*.pfx
+*.asc
+
+# --- Git tracked binaries to ignore going forward ---
+THM/cyberlens/www/winPEASx64.exe
+
+# --- Archives ---
+*.gz
+*.xz
+*.bak
+*.old
+
+# --- Node/npm ---
+node_modules/
+npm-debug.log*
+
+# --- Python ---
+__pycache__/
+.env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# --- Custom scratch dirs ---
+recon/
+loot/
+output/
+notes/
