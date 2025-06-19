@@ -1,0 +1,107 @@
+Vulnlawyrss
+
+
+Scope: catseye.ctfio.com
+
+
+ENUMERATION
+
+
+
+
+
+dirsearch -u https://catseye.ctfio.com/                                            
+/usr/lib/python3/dist-packages/dirsearch/dirsearch.py:23: DeprecationWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html
+  from pkg_resources import DistributionNotFound, VersionConflict
+
+  _|. _ _  _  _  _ _|_    v0.4.3
+ (_||| _) (/_(_|| (_| )
+
+Extensions: php, aspx, jsp, html, js | HTTP method: GET | Threads: 25 | Wordlist size: 11460
+
+Output File: /home/kali/Downloads/HH/vulnlawyers/reports/https_catseye.ctfio.com/__25-06-14_09-24-37.txt
+
+Target: https://catseye.ctfio.com/
+
+[09:24:37] Starting: 
+[09:24:41] 301 -  178B  - /js  ->  https://catseye.ctfio.com/js/            
+[09:25:37] 301 -  178B  - /css  ->  https://catseye.ctfio.com/css/          
+[09:25:53] 403 -  564B  - /images/                                          
+[09:25:53] 301 -  178B  - /images  ->  https://catseye.ctfio.com/images/    
+[09:25:58] 403 -  564B  - /js/                                              
+[09:26:04] 302 -    1KB - /login  ->  /denied                               
+[09:26:04] 302 -    1KB - /login/  ->  /denied                              
+                                                                             
+Task Completed
+
+
+
+
+
+vhosts 
+
+________________________________________________
+
+ :: Method           : GET
+ :: URL              : https://catseye.ctfio.com
+ :: Wordlist         : FUZZ: /home/kali/Downloads/HH/vulnlawyers/subdomains.txt
+ :: Header           : Host: FUZZ.catseye.ctfio.com
+ :: Header           : User-Agent: PENTEST
+ :: Follow redirects : false
+ :: Calibration      : false
+ :: Timeout          : 10
+ :: Threads          : 40
+ :: Matcher          : Response status: 200-299,301,302,307,401,403,405,500
+ :: Filter           : Response size: 1
+________________________________________________
+
+data                    [Status: 200, Size: 109, Words: 3, Lines: 1, Duration: 173ms]
+:: Progress: [1907/1907] :: Job [1/1] :: 232 req/sec :: Duration: [0:00:09] :: Errors: 0 ::
+
+
+
+webstie functionality
+
+https://citrine.ctfio.com/login       access denied from ip address          
+
+
+X-Forwarded_For
+SSRF
+
+
+
+<p>Access to this portal can now be found here <a href=/lawyers-only">/lawyers-only</a></p>
+                <p>[^FLAG^FB52470E40F47559EBA87252B2D4CF67^FLAG^]</p>
+                
+                
+dirsearch -u https://data.citrine.ctfio.com -r -w content.txt 
+           
+{
+  "users": [
+    {
+      "name": "Yusef Mcclain",
+      "email": "yusef.mcclain@vulnlawyers.ctf"
+    },
+    {
+      "name": "Shayne Cairns",
+      "email": "shayne.cairns@vulnlawyers.ctf"
+    },
+    {
+      "name": "Eisa Evans",
+      "email": "eisa.evans@vulnlawyers.ctf"
+    },
+    {
+      "name": "Jaskaran Lowe",
+      "email": "jaskaran.lowe@vulnlawyers.ctf"
+    },
+    {
+      "name": "Marsha Blankenship",
+      "email": "marsha.blankenship@vulnlawyers.ctf"
+    }
+  ],
+  "flag": "[^FLAG^25032EB0D322F7330182507FBAA1A55F^FLAG^]"
+}
+
+
+
+

@@ -1,0 +1,3 @@
+# Dirsearch started Sat Jun 14 10:40:23 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://data.citrine.ctfio.com -r -w content.txt
+
+200   396B   https://data.citrine.ctfio.com/users

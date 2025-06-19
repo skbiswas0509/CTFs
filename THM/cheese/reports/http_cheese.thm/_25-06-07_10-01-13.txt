@@ -1,0 +1,26 @@
+# Dirsearch started Sat Jun  7 10:03:56 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://cheese.thm
+
+403   275B   http://cheese.thm/.ht_wsr.txt
+403   275B   http://cheese.thm/.htaccess.bak1
+403   275B   http://cheese.thm/.htaccess.orig
+403   275B   http://cheese.thm/.htaccess_sc
+403   275B   http://cheese.thm/.htaccess.save
+403   275B   http://cheese.thm/.htaccess.sample
+403   275B   http://cheese.thm/.htaccess_extra
+403   275B   http://cheese.thm/.htaccess_orig
+403   275B   http://cheese.thm/.htaccessBAK
+403   275B   http://cheese.thm/.htaccessOLD2
+403   275B   http://cheese.thm/.htaccessOLD
+403   275B   http://cheese.thm/.htm
+403   275B   http://cheese.thm/.html
+403   275B   http://cheese.thm/.htpasswd_test
+403   275B   http://cheese.thm/.htpasswds
+403   275B   http://cheese.thm/.httr-oauth
+403   275B   http://cheese.thm/.php
+200   480B   http://cheese.thm/images/
+301   309B   http://cheese.thm/images    -> REDIRECTS TO: http://cheese.thm/images/
+200   370B   http://cheese.thm/login.php
+200   254B   http://cheese.thm/orders.html
+403   275B   http://cheese.thm/server-status/
+403   275B   http://cheese.thm/server-status
+200   254B   http://cheese.thm/users.html

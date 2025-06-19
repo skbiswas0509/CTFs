@@ -1,0 +1,3 @@
+# Dirsearch started Sun Jun 15 01:24:10 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://creative.thm/ -w /home/kali/Documents/directory-list-2.3-medium.txt
+
+301   178B   http://creative.thm/assets    -> REDIRECTS TO: http://creative.thm/assets/

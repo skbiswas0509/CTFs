@@ -1,0 +1,9 @@
+# Dirsearch started Sat Jun 14 09:26:04 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u https://catseye.ctfio.com/
+
+301   178B   https://catseye.ctfio.com/js    -> REDIRECTS TO: https://catseye.ctfio.com/js/
+301   178B   https://catseye.ctfio.com/css    -> REDIRECTS TO: https://catseye.ctfio.com/css/
+403   564B   https://catseye.ctfio.com/images/
+301   178B   https://catseye.ctfio.com/images    -> REDIRECTS TO: https://catseye.ctfio.com/images/
+403   564B   https://catseye.ctfio.com/js/
+302     1KB  https://catseye.ctfio.com/login    -> REDIRECTS TO: /denied
+302     1KB  https://catseye.ctfio.com/login/    -> REDIRECTS TO: /denied

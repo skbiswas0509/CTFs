@@ -1,0 +1,43 @@
+# Dirsearch started Thu Jun  5 10:08:33 2025 as: /usr/lib/python3/dist-packages/dirsearch/dirsearch.py -u http://smol.thm
+
+403   273B   http://smol.thm/.ht_wsr.txt
+403   273B   http://smol.thm/.htaccess.bak1
+403   273B   http://smol.thm/.htaccess.save
+403   273B   http://smol.thm/.htaccess_orig
+403   273B   http://smol.thm/.htaccess.orig
+403   273B   http://smol.thm/.htaccessBAK
+403   273B   http://smol.thm/.htaccess_extra
+403   273B   http://smol.thm/.htaccess_sc
+403   273B   http://smol.thm/.htaccess.sample
+403   273B   http://smol.thm/.htpasswd_test
+403   273B   http://smol.thm/.htaccessOLD2
+403   273B   http://smol.thm/.htaccessOLD
+403   273B   http://smol.thm/.htm
+403   273B   http://smol.thm/.httr-oauth
+403   273B   http://smol.thm/.htpasswds
+403   273B   http://smol.thm/.html
+403   273B   http://smol.thm/.php
+301     0B   http://smol.thm/index.php/login/    -> REDIRECTS TO: http://www.smol.thm/index.php/login/
+200     7KB  http://smol.thm/license.txt
+200     3KB  http://smol.thm/readme.html
+403   273B   http://smol.thm/server-status
+403   273B   http://smol.thm/server-status/
+200     0B   http://smol.thm/wp-config.php
+301   307B   http://smol.thm/wp-admin    -> REDIRECTS TO: http://smol.thm/wp-admin/
+302     0B   http://smol.thm/wp-admin/    -> REDIRECTS TO: http://www.smol.thm/wp-login.php?redirect_to=http%3A%2F%2Fsmol.thm%2Fwp-admin%2F&reauth=1
+409     3KB  http://smol.thm/wp-admin/setup-config.php
+200   500B   http://smol.thm/wp-admin/install.php
+400     1B   http://smol.thm/wp-admin/admin-ajax.php
+301   309B   http://smol.thm/wp-content    -> REDIRECTS TO: http://smol.thm/wp-content/
+200     0B   http://smol.thm/wp-content/
+200   525B   http://smol.thm/wp-content/uploads/
+200   410B   http://smol.thm/wp-content/upgrade/
+200    84B   http://smol.thm/wp-content/plugins/akismet/akismet.php
+500     0B   http://smol.thm/wp-content/plugins/hello.php
+301   310B   http://smol.thm/wp-includes    -> REDIRECTS TO: http://smol.thm/wp-includes/
+200     0B   http://smol.thm/wp-cron.php
+200     4KB  http://smol.thm/wp-includes/
+302     0B   http://smol.thm/wp-signup.php    -> REDIRECTS TO: http://www.smol.thm/wp-login.php?action=register
+200     2KB  http://smol.thm/wp-login.php
+200     0B   http://smol.thm/wp-includes/rss-functions.php
+405    42B   http://smol.thm/xmlrpc.php
