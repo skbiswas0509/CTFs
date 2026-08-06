@@ -1,0 +1,21 @@
+.Navbar{
+    position: top;
+    display: flex;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+.logo{
+    width: 40px;
+    height: 40px;
+}
+.item-box{
+    width: 20%;
+}
+.items{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    align-items: center;
+    font-size: medium;
+    font-weight: bold;
+}

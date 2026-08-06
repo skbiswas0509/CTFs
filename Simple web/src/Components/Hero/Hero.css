@@ -1,0 +1,25 @@
+.hero-container{
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-left{
+    width: 40%;
+}
+.img{
+    width: 360px;
+    height: 500px;
+}
+
+.hero-right{
+    width: 70%;
+    word-wrap: normal;
+}
+.text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    font-weight: 500;
+}

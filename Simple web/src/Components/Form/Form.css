@@ -1,0 +1,57 @@
+.container{
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.infos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.name-info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.name-field{
+    height: 20px;
+    width: 300px;
+}
+.email-info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.email-field{
+    height: 20px;
+    width: 300px;
+}
+.phone-info{
+    font-size: 20px;
+    font-weight: 600;
+}
+.phone-field{
+    height: 20px;
+    width: 300px;
+}
+.Message{
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.message-text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.message-field{
+    height: 80px;
+    width: 800px;
+}
